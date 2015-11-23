@@ -3,8 +3,8 @@ react-boilerplate
 
 A starter template for playing around with react
 
-Technologies You Familiarize Yourself With
-------------------------------------------
+Technologies You Should Familiarize Yourself With
+-------------------------------------------------
 
 - [JavaScript][js] – If you're still trying to get your bearings this is a great
    tutorial that doesn't treat you like an idiot
