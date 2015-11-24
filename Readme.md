@@ -6,8 +6,10 @@ A starter template for playing around with react
 Things You Should Download
 --------------------------
 
-- [Node](https://nodejs.org/en/download/)
-- [React DevTools](https://github.com/facebook/react-devtools)
+- [Node](https://nodejs.org/en/download/) for our frontend dependencies and build
+- [n](https://www.npmjs.com/package/n) a Node version manager
+- [React DevTools](https://github.com/facebook/react-devtools) add a special tab
+   for React in your Chrome/Firefox devtools
 
 Technologies You Should Familiarize Yourself With
 -------------------------------------------------
@@ -24,7 +26,14 @@ Technologies You Should Familiarize Yourself With
 - [flow][] – Flow is a static type checker for JavaScript.
    You aren't required to use it but it is available if you feel you need it.
 
+Installation
+------------
 
+```
+git clone https://github.com/webdesserts/react-boilerplate.git
+cd react-boilerplate
+npm install
+```
 
 Folder Structure
 ----------------
