@@ -3,6 +3,12 @@ react-boilerplate
 
 A starter template for playing around with react
 
+Things You Should Download
+--------------------------
+
+- [Node](https://nodejs.org/en/download/)
+- [React DevTools](https://github.com/facebook/react-devtools)
+
 Technologies You Should Familiarize Yourself With
 -------------------------------------------------
 
@@ -11,7 +17,7 @@ Technologies You Should Familiarize Yourself With
 - [ECMAScript 2015][es6] – The next version of javascript
 - [react][] – handles the view layer of our frontend
 - [react-router][router] – our views to their appropriate urls
-- [redux][redux] – handles the model layer of the frontend.
+- [redux][] – handles the model layer of the frontend.
 - [react-redux][react + redux] – Connects our redux store to our react-components
 - [immutable.js][immutable] (at least `Map` and `List`) – ensures that our redux
    store cannot be mutated by a property references
