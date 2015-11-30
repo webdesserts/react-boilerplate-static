@@ -7,9 +7,9 @@
   "author": "Michael C. Mullins",
   "license": "ISC",
   "scripts": {
-    "start": "node devServer.js",
-    "build:sass": "node-sass --source-map=true app/styles/main.scss -o app/assets",
-    "watch:sass": "node-sass --watch --source-map=true app/styles/main.scss -o app/assets",
+    "dev": "npm run build:sass && node devServer.js",
+    "build:sass": "node-sass --source-map=true app/styles -o app/assets",
+    "watch:sass": "npm run build:sass -- --watch",
     "build": "npm run build:sass && npm run build:webpack",
     "build:webpack": "NODE_ENV=production webpack --config webpack.config.prod.js",
     "test": "NODE_ENV=test zuul --local --open -- app/**/__tests__/**/*.{js,jsx}",
