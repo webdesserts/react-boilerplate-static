@@ -35,6 +35,14 @@ cd react-boilerplate
 npm install
 ```
 
+Usage
+-----
+
+- `npm run dev` start dev environment
+- `npm run build` builds for production
+- `npm run lint` lints the entire project
+- `npm run test` run all tests
+
 Folder Structure
 ----------------
 
